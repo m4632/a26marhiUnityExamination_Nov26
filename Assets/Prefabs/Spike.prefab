@@ -81,7 +81,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: -8593812510123145560, guid: 9fc957ea79ae92147b3d61e4b41e6af0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -105,6 +105,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c9d6b2cb0a07424f9a084af9865c3b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spike
+  speed: 3
+  distance: 5
 --- !u!61 &4819857538536849705
 BoxCollider2D:
   m_ObjectHideFlags: 0
