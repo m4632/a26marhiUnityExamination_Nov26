@@ -12,8 +12,8 @@ public class PlayerMovement : MonoBehaviour
     public float acceleration = 50f;
 
     [Header("Jump")]
-    public float jumpForce = 11f;
-    public float gravityScale = 3f;
+    public float jumpForce = 17f;
+    public float gravityScale = 2f;
     public float fallMultiplier = 3f;
 
     [Header("Dash")]
